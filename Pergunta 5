@@ -1,0 +1,13 @@
+# String a ser invertida
+string_original = "Hello, World!"
+
+# Inicializa a string invertida como vazia
+string_invertida = ""
+
+# Loop sobre a string original de trás para frente
+for i in range(len(string_original) - 1, -1, -1):
+    # Adiciona o caractere atual na posição i à string invertida
+    string_invertida += string_original[i]
+
+# Imprime a string invertida
+print(string_invertida)
